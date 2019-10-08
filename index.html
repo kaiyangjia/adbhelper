@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ADBHelper</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>ADB 调试工具</h1>
+    <p>使用前需要先配置好 adb 工具，并且在电脑上使用usb数据线连接测试机</p>
+    <p>开始前先点击 adb shell 按钮，然后才可以进行操作</p>
+    <p>
+        <button type="button" onclick="adbshell();">adb shell</button>
+        <button type="button" onclick="exitAdbShell();">退出shell</button>
+    </p>
+    <p>
+        <button type="button" onclick="adbup();">上</button>
+        <button type="button" onclick="adbdown();">下</button>
+        <button type="button" onclick="adbleft();">左</button>
+        <button type="button" onclick="adbright();">右</button>
+
+        <button type="button" onclick="adbprev();">左旋</button>
+        <button type="button" onclick="adbnext();">右旋</button>
+
+        <button type="button" onclick="adbenter();">确认</button>
+    </p>
+
+    <p>
+        <button type="button" onclick="adbback();">返回</button>
+    </p>
+
+    <p>
+        <button type="button" onclick="adbreboot();">重启</button>
+        <!-- <button type="button" onclick="confAdb();">测试adb</button> -->
+    </p>
+</body>
+</html>

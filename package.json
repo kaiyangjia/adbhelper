@@ -1,0 +1,13 @@
+{
+    "name": "adbhelper",
+    "version": "1.0.0",
+    "description": "ADB helper",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron .",
+      "package": "electron-packager ./ adbhelper --out ./out --app-version 1.0.0 --electron-version 3.1.4 --overwrite"
+    },
+    "author": "jiakaiyang",
+    "license": "jiakaiyang"
+}
